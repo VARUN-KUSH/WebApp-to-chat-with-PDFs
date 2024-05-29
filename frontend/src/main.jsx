@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     
   },
   {
-    path: "/chatpdf",
+    path: "/pdfchat",
     element: <Chat />,
     //loader: rootLoader,
     

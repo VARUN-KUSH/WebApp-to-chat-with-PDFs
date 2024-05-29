@@ -6,16 +6,16 @@ dotenv.config({
 
 
 // Access your API key as an environment variable (see "Set up your API key" above)
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const genAI = new GoogleGenerativeAI("AIzaSyA_fpwrjJaPMI0asVSLw6sdrChtwNE8YrM");
 
 async function generateEmbeddings(text) {
   // For embeddings, use the embedding-001 model
   const model = genAI.getGenerativeModel({ model: "embedding-001"});
 
   const result = await model.embedContent(text);
-  const embedding = result.embedding;
+  const embedding = result.embedding; 
   return embedding.values
-  //console.log(embedding.values);
+  // console.log(embedding.values);
   
 }
 

@@ -6,6 +6,6 @@ import {processFilesandsaveinpostgres} from "../controllers/file.js"
 const router = Router()
 // , description, pdfFile
 router.route("/createproject").post( upload.single('file'), processFilesandsaveinpostgres)
-router.route("/startchat").post()
+
 
 export default router

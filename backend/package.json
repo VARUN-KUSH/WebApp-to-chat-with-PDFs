@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "concurrently \"nodemon index.js\""
+    "start": "concurrently \"nodemon index.js\" \"nodemon worker.js\""
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,9 @@
     "multer": "^1.4.5-lts.1",
     "pdf2json": "^3.1.2",
     "pg": "^8.11.5",
-    "uuid": "^9.0.1"
+    "pgvector": "^0.1.8",
+    "uuid": "^9.0.1",
+    "ws": "^8.17.0"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
