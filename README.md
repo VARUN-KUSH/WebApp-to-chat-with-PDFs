@@ -1,3 +1,5 @@
+![WhatsApp Image 2024-05-30 at 8 20 30 PM](https://github.com/VARUN-KUSH/WebApp-to-chat-with-PDFs/assets/120031014/c120c249-b1d7-4a47-a1d9-1a3ef44636c9)
+![IMG_20240530_194803_157](https://github.com/VARUN-KUSH/WebApp-to-chat-with-PDFs/assets/120031014/8be75df3-b7aa-44c8-a9d5-c4ce722eb41b)
 # Project Architecture
 
 ## Overview
@@ -50,3 +52,8 @@ Receive the response from the LLM and send it back to the user.
 
 
  ![IMG_20240530_194803_157 (1)](https://github.com/VARUN-KUSH/WebApp-to-chat-with-PDFs/assets/120031014/b3453ca2-bb19-487d-87ea-25d310b41161)
+
+
+ **This is how Vector Embeddings are Stored in DB**
+![WhatsApp Image 2024-05-30 at 8 20 30 PM](https://github.com/VARUN-KUSH/WebApp-to-chat-with-PDFs/assets/120031014/ca6ffd8a-a40b-4515-aefc-d16b70d0de71)
+
