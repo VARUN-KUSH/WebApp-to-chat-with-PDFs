@@ -1,21 +1,3 @@
-**Over all Architecture of this project**
-
-**User sends file to Backend**
-**Storing files on server(this makes process slow so if you want to optimize your chat app remove the writing text file and saving file on server (both pdf fille and text file will be save din public/temp folder))**
-**Sending File to Cloudinary(cloudinary is free so in case you are testing it's great for that) similar to bucket S3**
-**Created a queue in controller file to sync the process using BULLMQ**
-**Processing in worker.js file  
- created raw text from file path and then chunked it into 1000 then sended it to generate vector embeddings usig Gemini and save the vector embeddings into POSTGRES DB for this you can pull pgvector docker image and connect it**
-
-**SO FIRST PART COMPLETED USER PROJECT GOT CREATED AND SAVED**
-
-**NOW USER SENDS A PROMPT**
-**Change it into Vector embeddings same process and Query to DB to get nearest neighbor i used cosine you can use L1, L2 based on your needs**
-**DB returns all data extract text from it**
-**Now Clean the extracted text  i wrote simple algo to clean so here we can do optimization at two place if you want 1st don't ask all the data only ask for text to send to llm and use some library to clean the data**
-**Send to LLM**
-**returned response send to user**
-
 # Project Architecture
 
 ## Overview
